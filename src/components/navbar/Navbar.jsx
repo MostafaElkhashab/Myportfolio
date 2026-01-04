@@ -27,7 +27,13 @@ export default function Navbar() {
             <img src={faceBook} alt="" />
           </a>
           <a href="https://github.com/MostafaElkhashab" target="_blank">
-            <img src={GitHub} alt="" />
+            <img
+              src={GitHub}
+              alt=""
+              style={{
+                filter: "invert()",
+              }}
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/mostafa-elkhashab-4923b32b5/"

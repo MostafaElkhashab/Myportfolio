@@ -11,6 +11,9 @@ section#Contact {
   display: flex;
   align-items: center;
   gap: 50px;
+  @include tablet {
+    max-width: 90%;
+  }
 
   @include mobile {
     width: 100%;
@@ -39,6 +42,10 @@ section#Contact {
         font-size: 36px;
         line-height: 44px;
       }
+      @include tablet {
+        font-size: 50px;
+        line-height: 60px;
+      }
     }
 
     span {
@@ -53,7 +60,6 @@ section#Contact {
     @include mobile {
       width: 100%;
     }
-
     .phoneSvg {
       stroke: orange;
       position: absolute;
@@ -66,6 +72,10 @@ section#Contact {
         @include mobile {
           width: 250px;
           height: 250px;
+        }
+        @include tablet {
+          width: 300px;
+          height: 300px;
         }
       }
     }

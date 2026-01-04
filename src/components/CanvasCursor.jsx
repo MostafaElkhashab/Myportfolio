@@ -5,8 +5,7 @@ const CanvasCursor = () => {
   useCanvasCursor({});
   return (
     <>
-      <canvas id="canvas" className="pointer-events-none fixed inset-0 z-50" />
-      {/* <h1>ana hena</h1> */}
+      <canvas id="canvas" className="pointer-events-none fixed inset-0" />
     </>
   );
 };

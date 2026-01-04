@@ -39,7 +39,6 @@
       align-items: center;
       justify-content: center;
       gap: 50px;
-
       @include mobile {
         flex-direction: column;
         gap: 15px;
@@ -62,6 +61,9 @@
           @include mobile {
             object-fit: contain;
           }
+          @include tablet {
+            object-fit: contain;
+          }
         }
       }
 
@@ -70,7 +72,9 @@
         display: flex;
         flex-direction: column;
         gap: 30px;
-
+        @include tablet {
+          gap: 10px;
+        }
         @include mobile {
           transform: none !important;
           padding: 10px;
