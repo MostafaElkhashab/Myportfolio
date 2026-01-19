@@ -25,6 +25,9 @@
   .social {
     display: flex;
     gap: 20px;
+    @include xsmall {
+      gap: 15px;
+    }
   }
   img {
     width: 30px;

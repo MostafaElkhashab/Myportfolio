@@ -45,8 +45,18 @@ body {
     @content;
   }
 }
+@mixin xsmall {
+  @media (max-width: 450px) {
+    @content;
+  }
+}
 @mixin tablet {
   @media (max-width: 1024px) {
+    @content;
+  }
+}
+@mixin large {
+  @media (max-width: 1300px) {
     @content;
   }
 }
