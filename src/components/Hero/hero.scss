@@ -51,10 +51,10 @@
 
       .buttons {
         button {
+          padding: 20px;
           @include mobile {
             padding: 15px;
           }
-          padding: 20px;
           border: 1px solid white;
           border-radius: 10px;
           background-color: transparent;
