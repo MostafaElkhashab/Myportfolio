@@ -5,6 +5,27 @@ import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 const items = [
   {
     id: 1,
+    title: "Admin Dashboard",
+    img: "/Dashboard.png",
+    desc: "Built with React + Vite + MUI v7, this project is a full-featured admin panel with everything you'd expect from a production-grade dashboard.",
+    tech: [
+      "React",
+      "Vite",
+      "Mui",
+      "Localization",
+      "Full calendar",
+      "MUI X Data Grid",
+      "i18next",
+      "Bar, Line, Pie & Geo charts",
+      "Netlify",
+      "Formik",
+      "Yup",
+      "RTL Support",
+    ],
+    link: "https://admin-panel-dashb0ard.netlify.app/",
+  },
+  {
+    id: 2,
     title: "E-Commerce Website",
     img: "/eommerce.png",
     desc: "Developed a fully responsive e-commerce platform with dynamic product listings and seamless user navigation.",
@@ -22,7 +43,7 @@ const items = [
     link: "https://fresh-cart-e-commerrce.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Recipe App",
     img: "/mealify.png",
     desc: "A responsive recipe application that allows users to explore a wide variety of meals with detailed information. The app fetches real-time data from a public API and displays recipes with ingredients,",
@@ -30,7 +51,7 @@ const items = [
     link: "https://mealify-melalify.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Coloshop",
     img: "/coloshop.png",
     desc: "A modern e-commerce front-end application inspired by real online shopping platforms. Coloshop focuses on creating an attractive and intuitive user interface for browsing products.",
@@ -38,7 +59,7 @@ const items = [
     link: "https://dulcet-cat-15e1eb.netlify.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "IT Hosting Website",
     img: "/website.png",
     desc: "A professional landing page for an IT hosting service that showcases hosting plans, features, and services in a visually appealing way. The project focuses on clean layout, modern design.",
